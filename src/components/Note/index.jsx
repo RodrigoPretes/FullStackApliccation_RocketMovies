@@ -1,25 +1,22 @@
+import { Container } from './styles';
+import { Tag } from '../Tag';
+import { AiOutlineStar, AiFillStar} from 'react-icons/ai';
 
-import React from "react"; // Certifique-se de importar o React
-import { Container } from "./styles";
-import { FiStar } from "react-icons/fi";
-import { Tag } from "../Tag";
-
-export function Note(props){
-    const { title, notes, tags } = props.data;
-    return( 
-        <Container {...props}>
-            <h1>{title}</h1>
-            <p>{notes}</p>
-            {
-                tags &&
-                <footer>
-                    {
-                        tags.map(tag=>
-                            <Tag key={tag.id} title={tag.name}/>)
-                    }
-                </footer>
-            }
-        </Container>
-    )
+export function Note({data, ...rest}){
+  return(
+    <Container {...rest}>
+      <h1>{data.title}</h1>
+      <p>{data.p}</p>
+      {
+        data.tags && 
+        <footer>
+          {
+            data.tags.map(tag => 
+              <Tag key={tag.id} title={tag.name}/>             
+            )
+          }
+        </footer>
+      }
+    </Container>
+  )
 }
-

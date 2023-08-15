@@ -17,7 +17,9 @@ export const Container = styled.button`
     font-size: 16px;
 
     
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
     &:disabled{
         opacity: 0.5;
         cursor: pointer;

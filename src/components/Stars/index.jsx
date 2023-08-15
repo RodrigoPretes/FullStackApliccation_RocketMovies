@@ -1,7 +1,8 @@
-import { AiOutlineStar, AiFillStar} from 'react-icons/ai'
 
-import { Container } from 'styles';
+import { Container } from './style';
 
-export function NoteItem( isNew, value, onClick, ...rest){
-    
+export function Stars( {icon: Icon}){
+  <Container>
+    {Icon && <Icon size={20}/>}
+  </Container>
 }
