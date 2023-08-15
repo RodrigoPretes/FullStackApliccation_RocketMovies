@@ -28,7 +28,7 @@ export const Container = styled.div`
         }
     }
     >svg{
-        margin-left: 16px;
+        margin: 0 16px;
     }
 
 `;
