@@ -19,7 +19,7 @@ export const Container = styled.header`
 
     padding: 0 80px;
 
-    background: ${({ theme }) => theme.COLORS.BLACK};
+    background: ${({ theme }) => theme.COLORS.ALMOST_BLACK};
 
 
     > h1 {

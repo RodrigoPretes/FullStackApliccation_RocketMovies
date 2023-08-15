@@ -8,7 +8,7 @@ export const Container = styled.div`
     display:flex;
     align-items: center;
 
-    background-color: ${( {theme}) => theme.COLORS.ALMOST_BLACK};
+    background-color: ${( {theme}) => theme.COLORS.BACKGROUND_INPUT};
     color: ${( {theme}) => theme.COLORS.WHITE};
 
     margin-bottom: 8px;
@@ -26,6 +26,7 @@ export const Container = styled.div`
         &:placeholder{
             color: ${( {theme}) => theme.COLORS.GRAY};
         }
+        padding: 16px;
     }
     >svg{
         margin: 0 16px;

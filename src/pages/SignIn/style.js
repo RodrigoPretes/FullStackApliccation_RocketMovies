@@ -40,6 +40,7 @@ export const Form = styled.form`
   }
   >Button{
     margin-top: 24px;
+    font-weight: 700;
   }
 
 `;
