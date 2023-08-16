@@ -9,17 +9,17 @@ import { FiArrowLeft } from 'react-icons/fi';
 
 import { Container, Form } from './styles';
 
-export default function New(){
+export function New(){
   return(
     <Container>
       <Header/>
       <main>
         <Form>
           <header>
-          <a href="#">
+          <Link to="/">
             <FiArrowLeft />
             Voltar
-          </a>
+          </Link>
           <h1>Novo Filme</h1>
           </header>
             

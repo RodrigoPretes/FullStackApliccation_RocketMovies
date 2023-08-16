@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 
-export default function SignIn(){
+export function SignUp(){
   return(
     <Container>
       <Background />
@@ -31,7 +31,7 @@ export default function SignIn(){
           icon={FiLock}
         />
         <Button title="Cadastrar"/>
-        <a href="#"> &lt;- Voltar para o login</a>
+        <Link to="/"> &lt;- Voltar para o login</Link>
       </Form>
       
     </Container>

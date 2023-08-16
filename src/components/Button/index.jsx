@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import { Link } from 'react-router-dom';
 
 export function Button({ title, loading = false ,icon: Icon, ...rest}){
     return(

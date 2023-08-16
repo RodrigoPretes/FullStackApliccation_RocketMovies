@@ -1,8 +1,15 @@
-
 import { Container } from './style';
+import { FiStar } from 'react-icons/fi';
+import { AiFillStar } from "react-icons/ai";
 
-export function Stars( {icon: Icon}){
+export default function Stars(){
+  return(
   <Container>
-    {Icon && <Icon size={20}/>}
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
+    <FiStar />
   </Container>
+  )
 }

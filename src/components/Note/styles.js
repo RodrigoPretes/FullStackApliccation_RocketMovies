@@ -28,5 +28,14 @@ export const Container = styled.button`
     display: flex;
     margin-top: 24px;
   }
-
+  svg{
+    color: ${({ theme }) => theme.COLORS.PINK};
+  }
+  .Star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap:6px;
+  }
 `;

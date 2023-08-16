@@ -8,7 +8,7 @@ export default {
         TEXTCOLOR:"#999591",
         BUTTON_TEXT_COLOR: "#312E38",
         BUTTON_TEXT_WHITE_COLOR: "#E5E5E5",
-        BACKGROUND_NOTES:"#4d282f",
+        BACKGROUND_NOTES:"#3b3236",
         BACKGROUND_INPUT: "#3b3b3d"
 
     }

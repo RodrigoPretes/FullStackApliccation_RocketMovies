@@ -4,14 +4,14 @@ import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { Link } from 'react-router-dom';
 
-export default function Profile(){
+export function Profile(){
   return(
     <Container>
       <header>
-        <a href="#">
+        <Link to="/">
           <FiArrowLeft />
           Voltar
-        </a>
+        </Link>
       </header>
 
       <Form>
