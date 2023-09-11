@@ -12,6 +12,14 @@ export const Content = styled.div`
   overflow-y: auto;
   margin: 38px auto;  
   font-size: 16px;
+  header{
+    display: flex;
+    justify-content: space-between;
+    Button{
+            width: 207px;
+            font-weight: bold;
+        }
+  }
   a{
         font-size: 16px;
         color: ${({ theme }) => theme.COLORS.PINK};

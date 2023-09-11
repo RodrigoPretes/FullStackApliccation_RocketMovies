@@ -41,7 +41,7 @@ export const Container = styled.div`
     h2{
       margin-bottom: 25px;
     }
-    .tag{
+    .nota {
       display:flex;
       justify-content: space-between;
       gap: 40px;
